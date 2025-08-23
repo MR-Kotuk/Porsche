@@ -1,0 +1,81 @@
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: black;
+  height: 50px;
+  z-index: 100;
+}
+
+.logo-container {
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+.logo {
+  height: 15px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.middle-section button {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+
+  padding-top: 5px;
+  height: 50px;
+  font-size: 15px;
+
+  border: none;
+  border-bottom: 5px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.middle-section button:hover {
+  border-bottom: 5px solid white;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 150px;
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+.support-icon,
+.language-icon,
+.account-icon {
+  filter: invert(1);
+  height: 30px;
+  cursor: pointer;
+
+
+  border: 2px solid transparent;
+  border-radius: 20px;
+
+  padding: 2px;
+
+  transition: border-color 0.5s;
+
+}
+
+.support-icon:hover,
+.language-icon:hover,
+.account-icon:hover {
+  border-color: black;
+}
+

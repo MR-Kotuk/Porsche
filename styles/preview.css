@@ -1,0 +1,26 @@
+.car-preview .picture {
+  object-fit: cover;
+
+  width: 100vw;
+  height: 100vh;
+
+  transform: scaleX(-1);
+}
+
+.car-preview {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.car-preview .model,
+.car-preview .description {
+  position: absolute;
+  color: white;
+}
+
+.car-preview .model {
+  font-size: 50px;
+  margin-bottom: 700px;
+}

@@ -1,0 +1,52 @@
+.car-description {
+  display: grid;
+  grid-template-columns: 1fr 1000px;
+  align-items: center;
+}
+
+.car-description .picture {
+  object-fit: cover;
+  width: 1000px;
+  transform: scaleX(-1);
+}
+
+.car-description .description {
+  margin-left: 95px;
+}
+
+.acceleration-info .acceleration,
+.power-info .power-kv,
+.power-info .power-ps,
+.speed-info .speed {
+  display: inline-block;
+  font-size: 70px;
+  margin-right: 10px;
+}
+
+.acceleration-info .acceleration-unit,
+.speed-info .speed-unit {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.acceleration-info .additional-info,
+.speed-info .additional-info {
+  margin-top: -70px;
+  color: rgb(150, 150, 150);
+}
+
+.power-info .delimiter {
+  display: inline-block;
+  font-size: 50px;
+}
+
+.power-info .unit-kv,
+.power-info .unit-ps {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.power-info .additional-info {
+  margin-top: -70px;
+  color: rgb(150, 150, 150);
+}
