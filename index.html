@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/preview.css">
   <link rel="stylesheet" href="styles/car-description.css">
+  <link rel="stylesheet" href="styles/photo-page.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +18,8 @@
   <header>
     <div class="left-section">
       <div class="logo-container">
-        <a href="/">
-          <img class="logo" src="img/logo.png">
+        <a href="/Porsche">
+          <img class="logo" src="img/logos/porsche-logo.png">
         </a>
       </div>
     </div>
@@ -34,22 +35,22 @@
 
     <div class="right-section">
       <div class="support-container">
-        <img class="support-icon" src="img/support.png">
+        <img class="support-icon" src="img/icons/support.png">
       </div>
 
       <div class="language-container">
-        <img class="language-icon" src="img/language.png">
+        <img class="language-icon" src="img/icons/language.png">
       </div>
 
       <div class="account-container">
-        <img class="account-icon" src="img/account.png">
+        <img class="account-icon" src="img/icons/account.png">
       </div>
     </div>
   </header>
 
   <main>
     <div class="car-preview">
-      <img class="picture" src="img/porsche.jpg">
+      <img class="picture" src="img/car/preview.jpg">
       <p class="model">911 GT3 RS</p>
       <p class="description">
         Fuel consumption combined: 13.2 l/100 km (preliminary value), CO2-emissions combined (WLTP)*: 299 g/km
@@ -85,10 +86,37 @@
 
           <p class="additional-info">Top speed</p>
         </div>
+
+        <div>
+          <button class="view-all-tech-details-button">View all technical details</button>
+        </div>
       </div>
 
       <div>
-        <img class="picture" src="img/car-front.png">
+        <img class="picture" src="img/car/front-preview.png">
+      </div>
+    </div>
+
+    <div class="photo-page">
+      <img class="number-image-911" src="img/logos/911-logo.svg">
+
+      <div class="photo-colage">
+        <img class="preview-photo" src="img/car/photos/car-night.png">
+        <img class="preview-photo-right" src="img/car/photos/car-back.png">
+
+        <div class="info">
+          <p class="type">Sportmade.</p>
+          <p class="description">
+            Every athlete knows the absolute willingness to question everything is crucial to achieving a top
+            performance. With this
+            attitude, Porsche continues to push back the boundaries of what is possible.
+          </p>
+        </div>
+
+        <iframe
+          src="https://www.youtube.com/embed/IQlqm5lNqQE?autoplay=1&mute=1&loop=1&playlist=IQlqm5lNqQE&controls=0&modestbranding=1&rel=0"
+          frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
       </div>
     </div>
   </main>
