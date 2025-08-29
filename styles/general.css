@@ -6,5 +6,5 @@ body {
   color: white;
   font-family: "Orbitron", sans-serif;
 
-  padding-bottom: 1700px;
+  overflow-x: hidden;
 }
