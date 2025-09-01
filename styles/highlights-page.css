@@ -54,6 +54,11 @@
   height: 100%;
   object-fit: cover;
   object-position: 35%;
+  transition: transform 0.5s ease;
+}
+
+.slide:hover img {
+  transform: scale(1.05);
 }
 
 .slide .text {
@@ -61,6 +66,7 @@
   left: 30px;
   right: 100px;
   bottom: 150px;
+  width: 90%;
   z-index: 1;
 }
 

@@ -1,0 +1,89 @@
+.update-page {
+  margin-top: 250px;
+  width: 100vw;
+  height: 75vh;
+  position: relative;
+}
+
+.update-page .background-picture {
+  object-fit: cover;
+  display: block;
+
+  width: 100%;
+  height: 100%;
+}
+
+.update-page::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 20%);
+}
+
+.update-page .info {
+  color: white;
+  position: absolute;
+  text-align: center;
+  bottom: -100px;
+  padding: 0 30%;
+  z-index: 1;
+
+  width: 60%;
+  max-width: 700px;
+
+  font-family: Arial;
+}
+
+.update-page .info .title {
+  font-weight: bold;
+  font-size: 40px;
+
+  margin-bottom: 0;
+}
+
+.update-page .info .description {
+  font-size: 20px;
+}
+
+.slider {
+  margin-top: 170px;
+}
+
+.slider .sections {
+  margin-left: 250px;
+}
+
+.slider .sections button {
+  background-color: transparent;
+  color: white;
+  border: none;
+
+  font-size: 15px;
+
+  padding: 5px 2px;
+  margin-right: 20px;
+}
+
+.slider .sections .selected {
+  border-bottom: 2px solid white;
+}
+
+.update-page .slider-container::before,
+.update-page .slider-container::after {
+  flex: 0 0 210px;
+}
+
+.update-page .slider-container {
+  margin-top: 50px;
+}
+
+.update-page .page-info {
+  margin-top: 150px;
+  text-align: center;
+
+  font-size: 12px;
+  color: rgb(150, 150, 150);
+}
