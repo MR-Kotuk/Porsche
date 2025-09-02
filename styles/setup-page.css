@@ -1,0 +1,21 @@
+.setup {
+  margin-top: 1200px;
+  position: relative;
+}
+
+.setup img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.setup .text-container {
+  position: absolute;
+  width: 600px;
+  top: 250px;
+  left: 250px;
+}
+
+.setup .text-container .title {
+  font-size: 50px;
+  margin-bottom: 0;
+}
