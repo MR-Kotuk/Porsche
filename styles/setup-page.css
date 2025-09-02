@@ -1,21 +1,22 @@
-.setup {
+.setup-page {
   margin-top: 1200px;
   position: relative;
 }
 
-.setup img {
+.setup-page img {
   width: 100vw;
   height: 100vh;
 }
 
-.setup .text-container {
+.setup-page .text-container {
   position: absolute;
   width: 600px;
   top: 250px;
   left: 250px;
 }
 
-.setup .text-container .title {
+.setup-page .text-container .title {
+  font-weight: bold;
   font-size: 50px;
   margin-bottom: 0;
 }
