@@ -61,7 +61,6 @@
   margin-top: 70px;
 
   transition: background-color 0.5s, color 0.5s;
-  cursor: pointer;
 }
 
 .description .view-all-tech-details-button:hover {

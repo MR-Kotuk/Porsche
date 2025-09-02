@@ -1,0 +1,82 @@
+.packages-page {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.packages-page .text-container {
+  text-align: center;
+}
+
+.packages-page .text-container .title {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.packages-page .package-container {
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+}
+
+.packages-page .package {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.packages-page .package::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-radius: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+}
+
+.packages-page .package img {
+  height: 400px;
+  width: 600px;
+  
+  object-fit: cover;
+  position: relative;
+
+  transition: transform 0.5s ease;
+}
+
+.packages-page .package img:hover {
+  transform: scale(1.05);
+}
+
+.packages-page .button-container {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  z-index: 1;
+}
+
+.packages-page .button-container button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+
+  height: 60px;
+  width: 170px;
+
+  font-size: 17px;
+
+  margin-top: 5px;
+
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.packages-page .button-container button:hover {
+  background-color: white;
+  color: black;
+}
