@@ -1,0 +1,119 @@
+footer {
+  background-color: rgb(20, 20, 20);
+  height: 87vh;
+  margin-top: 300px;
+  padding: 50px;
+}
+
+.contact {
+  display: flex;
+  gap: 100px;
+}
+
+.contact .title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.contact .description {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.contact .touch {
+  height: 60px;
+  width: 300px;
+
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+
+  border: 2px solid white;
+  border-radius: 5px;
+
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.contact .touch:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact .socials {
+  display: flex;
+  gap: 15px;
+}
+
+.contact .socials button {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  filter: invert(1);
+
+  transition: background-color 0.5s, border-color 0.5s, filter 0.5s;
+}
+
+.contact .socials button:hover {
+  filter: invert(0);
+  background-color: white;
+  border-color: white;
+}
+
+.contact .socials img {
+  height: 30px;
+}
+
+.company {
+  margin: 100px 0;
+  width: 1000px;
+}
+
+.company .title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.company .companies {
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 7.5px;
+}
+
+.company .companies p {
+  margin: 0;
+}
+
+
+.license {
+  border-top: 2px solid white;
+  padding-top: 30px;
+}
+
+.license .underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.license .space {
+  margin-top: 20px;
+  display: block;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.logo img {
+  height: 30px;
+}
